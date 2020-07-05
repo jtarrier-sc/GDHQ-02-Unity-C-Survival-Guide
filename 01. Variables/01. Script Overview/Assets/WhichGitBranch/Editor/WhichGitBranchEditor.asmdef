@@ -1,0 +1,8 @@
+{
+    "name": "WhichGitBranchEditor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
