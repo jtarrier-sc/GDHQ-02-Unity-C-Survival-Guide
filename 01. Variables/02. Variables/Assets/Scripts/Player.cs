@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
 	// variable for my location
 	public string myLocation = "Singapore";
 	
+	// variable for whether or not player has obtained a key
+	public bool hasKey = false;
+	
 	
     // Start is called before the first frame update
     void Start()
