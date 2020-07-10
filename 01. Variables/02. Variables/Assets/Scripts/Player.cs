@@ -19,6 +19,17 @@ public class Player : MonoBehaviour
 	/// 4. value (optional)
 	/// </summary>
 	
+	
+	// variable for my name
+	public string myName = "Jeremy";
+	
+	// variable for my age
+	public int myAge = 57;
+	
+	// variable for my location
+	public string myLocation = "Singapore";
+	
+	
     // Start is called before the first frame update
     void Start()
     {
