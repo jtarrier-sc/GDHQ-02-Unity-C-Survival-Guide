@@ -33,7 +33,11 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Print out variables to the Unity Console
+		Debug.Log("My name is: " + myName);
+		Debug.Log("My age is: " + myAge);
+		Debug.Log("My location is: " + myLocation);
+		
     }
 
     // Update is called once per frame
