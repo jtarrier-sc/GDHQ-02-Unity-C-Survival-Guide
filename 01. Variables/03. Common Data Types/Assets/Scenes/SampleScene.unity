@@ -309,3 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c1a55a47c1f64e46a500a8dc5fdd54e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  speed: 5.5
+  player: {fileID: 0}
+  anim: {fileID: 0}
+  myTransform: {fileID: 963194228}
