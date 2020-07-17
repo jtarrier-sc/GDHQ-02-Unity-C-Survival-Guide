@@ -33,6 +33,13 @@ public class Player : MonoBehaviour
     void Start()
     {
         // print out variables with appropriate descriptive text
+        Debug.Log("My name is: " + myName);
+        Debug.Log("My age is: " + myAge);
+        Debug.Log("My speed is: " + mySpeed);
+        Debug.Log("Health: " + health);
+        Debug.Log("Score: " + score);
+        Debug.Log("Has all keys: " + hasAllKeys);
+        Debug.Log("Ammo count: " + ammoCount);
     }
 
     // Update is called once per frame
