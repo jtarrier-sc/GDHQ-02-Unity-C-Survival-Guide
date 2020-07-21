@@ -11,7 +11,11 @@ public class Item : MonoBehaviour
     ///     an image icon
     ///     an attack strength
     /// </summary>
-    
+
+    public string itemName = "";
+    public string itemDescription = "";
+    // public ??? itemImageIcon;
+    public float itemAttackStrength = 0.0f;
 
     // Start is called before the first frame update
     void Start()
