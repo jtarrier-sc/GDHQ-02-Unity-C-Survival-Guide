@@ -14,13 +14,16 @@ public class Item : MonoBehaviour
 
     public string itemName = "";
     public string itemDescription = "";
-    // public ??? itemImageIcon;
+    public Sprite itemImageIcon;
     public float itemAttackStrength = 0.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Item name: " + itemName);
+        Debug.Log("Item description: " + itemDescription);
+        Debug.Log("Item image icon: " + itemImageIcon);
+        Debug.Log("Item attack strength: " + itemAttackStrength);
     }
 
     // Update is called once per frame
